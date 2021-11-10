@@ -1,0 +1,19 @@
+{
+  "name": "institute-management-system-backend",
+  "version": "1.0.0",
+  "description": "student-mentor-manage-api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Aditya",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.4",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  }
+}
