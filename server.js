@@ -22,6 +22,13 @@ app.use(express.json());
 app.use("/api", studentRouter);
 app.use("/api", mentorRouter);
 
+app.get("/", (req, res) => {
+  res.status(200).json({
+    message: "Server is up",
+    title: "Welcome to institue management rest API ",
+  });
+});
+
 app.listen(PORT, () => {
   console.log(`Server is listening on http://localhost:${PORT}`);
 });
